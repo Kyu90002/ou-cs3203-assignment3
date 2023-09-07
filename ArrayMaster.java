@@ -5,6 +5,10 @@ public class ArrayMaster {
 
 		System.out.println(sum_is(userArr));
 		System.out.println(product_is(userArr));
+		for(int i = 0; i < userArr.length; i++) {
+			System.out.print(reverse_is(userArr)[i] + " ");
+		}
+
 	}
 	
 	public static int sum_is(int[] userArr) {
@@ -31,7 +35,7 @@ public class ArrayMaster {
 		int[] reversedArr = new int[userArr.length];
 
 		for(int i = 0; i < userArr.length; i++) {
-			reversedArr[i] = userArr[userArr.length - i];
+			reversedArr[i] = userArr[userArr.length - 1 - i];
 		}
 
 		return reversedArr;

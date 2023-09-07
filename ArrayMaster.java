@@ -27,4 +27,13 @@ public class ArrayMaster {
 		return product;
 	}
 
+	public static int[] reverse_is(int[] userArr) {
+		int[] reversedArr = new int[userArr.length];
+
+		for(int i = 0; i < userArr.length; i++) {
+			reversedArr[i] = userArr[userArr.length - i];
+		}
+
+		return reversedArr;
+	}
 }

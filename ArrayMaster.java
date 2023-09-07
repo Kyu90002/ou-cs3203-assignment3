@@ -5,7 +5,7 @@ public class ArrayMaster {
 
 		System.out.println(sum_is(userArr));
 		System.out.println(product_is(userArr));
-		for(int i = 0; i < userArr.length; i++) {
+		for(int i = 0; i < userArr.length; i++) {		// for loop to print array elements
 			System.out.print(reverse_is(userArr)[i] + " ");
 		}
 

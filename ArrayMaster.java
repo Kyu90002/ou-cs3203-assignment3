@@ -2,13 +2,27 @@ public class ArrayMaster {
 
 	public static void main(String[] args) {
 		int[] userArr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		
+		System.out.print("User entered array is: ");
+		for(int i = 0; i < userArr.length; i++) {
+			System.out.print(userArr[i] + " ");
+		}
+		System.out.println();
 
-		System.out.println(sum_Is(userArr));
-		System.out.println(product_is(userArr));
+		System.out.println("The sum of array is: " + sum_Is(userArr));
+		System.out.println("The product of array is: " + product_is(userArr));
+	
+		System.out.print("The squared array is: ");
+		for(int i = 0; i < userArr.length; i++) {
+			System.out.print(squared_is(userArr)[i] + " ");
+		}
+		System.out.println();
 
+		System.out.print("The reverse of array is: ");
 		for(int i = 0; i < userArr.length; i++) {
 			System.out.print(reverse_is(userArr)[i] + " ");
 		}
+		System.out.println();
 
 	}
 	
@@ -40,6 +54,16 @@ public class ArrayMaster {
 		}
 
 		return reversed_userArr;
+	}
+
+	public static int[] squared_is(int[] userArr) {
+		int[] squared_userArr = new int[userArr.length];
+
+		for(int i = 0; i < userArr.length; i++) {
+			squared_userArr[i] = userArr[i] * userArr[i];
+		}
+
+		return squared_userArr;
 	}
 
 }

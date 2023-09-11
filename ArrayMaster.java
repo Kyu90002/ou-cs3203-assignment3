@@ -8,7 +8,7 @@
  * I couldn't find a good solution from the internet
  * most of people tend to use merging with ff
  * 
- * trying to do rebase2
+ * trying to do rebase3
  */
 public class ArrayMaster {
 

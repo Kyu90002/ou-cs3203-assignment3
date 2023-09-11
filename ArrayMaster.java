@@ -50,6 +50,7 @@ public class ArrayMaster {
 		return sum;
 	}
 
+	// multiplies every int in the array
 	public static int product_is(int[] userArr) {
 		int product = 1;
 
@@ -81,5 +82,6 @@ public class ArrayMaster {
 
 		return squared_userArr;
 	}
+	
 
 }

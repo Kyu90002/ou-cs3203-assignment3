@@ -9,6 +9,8 @@
  * most of people tend to use merging with ff
  * 
  * trying to do rebase3
+ * 
+ * oh shoot I changed something but I took so long...
  */
 public class ArrayMaster {
 

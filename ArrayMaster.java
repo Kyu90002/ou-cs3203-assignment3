@@ -7,6 +7,8 @@
  * it was painful to figure out how to do merge without ff
  * I couldn't find a good solution from the internet
  * most of people tend to use merging with ff
+ * 
+ * trying to do rebase2
  */
 public class ArrayMaster {
 
